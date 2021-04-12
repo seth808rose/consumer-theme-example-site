@@ -587,7 +587,7 @@ contact
 .submit-btn {
   display: block;
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
 }
@@ -598,6 +598,59 @@ contact
     width: 50%;
   }
 }
+/* fun stuff contact */
+.contact, .form-section{
+  margin: 1rem 0;
+}
+.form-section {
+  background: var(--clr-white);
+}
+.form-article {
+  margin: 1rem 1rem;
+  background: var(--clr-grey-10);
+  border-radius: var(--radius);
+  text-align: center;
+  transition: var(--transition);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  max-width: 35rem;
+}
+
+.form-article:hover{
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.form-article h3{
+  padding: 1.25rem;
+  color: var(--clr-grey-5);
+}
+.form-group{
+  padding: 1.3rem 1.3rem;
+}
+.form-input{
+  display: block;
+  width: 100%;
+  padding: .75rem 1rem;
+  border: none;
+  margin-bottom: 1.25rem;
+  border-radius: var(--radius);
+  background: var(--clr-grey-1);
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+}
+.form-input::placeholder{
+  font-family: var(--ff-primery);
+  text-transform: uppercase;
+  color: var(--clr-grey-10);
+  letter-spacing: var(--spacing);
+}
+.form-btn{
+  width: 100%;
+  display: block;
+  padding: 1.3rem 1.3rem;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+/* end of fun stuff contact */
 /* 
 =====================
 footer
